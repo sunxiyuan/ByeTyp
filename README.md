@@ -1,4 +1,10 @@
-# ByeTyp
+<p align="center"><img src="https://github.com/ibadboy-net/ByeTyp/blob/master/image/logo.png"></p>
+
+<p align="center">
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/cocoapods/v/ByeTyp.svg?style=flat"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/badge/license-mit-000000.svg"></a>
+</p>
+
 再见typecho！此插件将帮助你将typecho上的资源无缝迁移到WordPress上。  
 插件是原理是：将Typecho中的资源导出为WordPress可识别的XWR格式文件，再通过WordPress导入工具导入该文件。  
 
