@@ -2,6 +2,9 @@
 再见typecho！此插件将帮助你将typecho上的资源无缝迁移到WordPress上。  
 插件是原理是：将Typecho中的资源导出为WordPress可识别的XWR格式文件，再通过WordPress导入工具导入该文件。  
 
+## 支持的软件版本
+插件已在Typecho1.1和WordPress5.2.2上测试通过。
+
 ## 安装方法
 请移步[https://github.com/ibadboy-net/ByeTyp/releases](https://github.com/ibadboy-net/ByeTyp/releases)，下载当前最新版的插件，并安装到你的Typecho上。  
 
