@@ -203,7 +203,9 @@ EOT;
             $args = explode('/', $version_string);
             $version = floatval($args[0]);
             if (substr($row['text'], 0, 15) == '<!--markdown-->' && $version >= 1.0) {
-                $content = Markdown::convert(strip_tags($row['text']));
+                //$parser = new Parser();
+                //$content = $parser->makeHtml($row['text']);
+                $content = Markdown::convert($row['text']);
             } else {
                 $content = $row['text'];
             }

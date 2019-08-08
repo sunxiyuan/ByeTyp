@@ -1,7 +1,7 @@
 <p align="center"><img src="https://github.com/ibadboy-net/ByeTyp/blob/master/image/logo.png"></p>
 
 <p align="center">
-<a href="https://github.com/ibadboy-net/ByeTyp/releases"><img src="https://img.shields.io/badge/pod-v1.2-yellow.svg"></a>
+<a href="https://github.com/ibadboy-net/ByeTyp/releases"><img src="https://img.shields.io/badge/pod-v1.3-yellow.svg"></a>
 <a href="https://github.com/ibadboy-net/ByeTyp/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-mit-000000.svg"></a>
 </p>
 
