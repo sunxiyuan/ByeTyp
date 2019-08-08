@@ -12,7 +12,8 @@
 插件已在Typecho1.1和WordPress5.2.2上测试通过。
 
 ## 安装方法
-请移步[https://github.com/ibadboy-net/ByeTyp/releases](https://github.com/ibadboy-net/ByeTyp/releases)，下载当前最新版的插件，并安装到你的Typecho上。  
+请移步[https://github.com/ibadboy-net/ByeTyp/releases](https://github.com/ibadboy-net/ByeTyp/releases)，下载当前最新版的插件，并安装到你的Typecho上。 
+注意：上传插件时需要去掉目录后面的版本号，例如：ByeTyp-1.2，需要修改为ByeTyp再上传。    
 
 ## 使用方法
 在Typecho上启用插件后，依次点击：控制台->数据导出->导出XML文件，下载并保存此文件。  
