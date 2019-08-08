@@ -4,7 +4,7 @@
  *
  * @package ByeTyp
  * @author sunxiyuan
- * @version 1.2
+ * @version 1.3
  * @link https://www.ibadboy.net
  */
 class ByeTyp_Plugin implements Typecho_Plugin_Interface
