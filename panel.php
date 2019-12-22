@@ -1,5 +1,5 @@
 <?php
-$current_version = 1.3;
+$current_version = 1.4;
 
 $version = file_get_contents('https://www.ibadboy.net/github/ByeTyp/version.php');
 $message = '';
