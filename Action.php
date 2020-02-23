@@ -158,9 +158,9 @@ EOT;
         $meta_table = $dbPrefix . 'metas';
         $user_table = $dbPrefix . 'users';
 
-        $sql = "select p.*,
-                group_concat(concat(m.name, '@', m.slug, '@', m.type) separator '|') terms,
-                u.name author
+        $sql = "select p.*,";
+        $sql .= $db->getAdapterName() == 'Pdo_SQLite' ? "group_concat(m.name||'@'||m.slug||'@'||m.type, '|') terms," : "group_concat(concat(m.name, '@', m.slug, '@', m.type) separator '|') terms,";
+        $sql .= "u.name author
                 from {$post_table} p
                 left join {$relation_table} r
                 on p.cid = r.cid
